@@ -1,14 +1,21 @@
-fruit = "abba"
-palin = "abcdefg"
 
-def reverse(string):
-  string = "".join(reversed(string))
 
-  if string is not reversed(string):
-    return False
+def isPalindrome(string):
+  example = "".join(reversed(string))
+
+  if string is example:
+       return False
   else: 
     return True
 
 
+string_one = "abba"
+string_two = "abcdefg"
+answer = isPalindrome(string_two)
 
-print(reverse(fruit))
+if (answer == answer):
+  print("True")
+else:
+  print("False")
+
+
